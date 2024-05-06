@@ -292,6 +292,7 @@ header .container {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-header {
@@ -399,8 +400,6 @@ header .container {
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
-    display: flex;
-
 }
 
 .footer-text {
@@ -451,7 +450,6 @@ header .container {
     display: flex;
     gap:24px;
     justify-content: center;
-#    margin: 0 16px 32px 16px;
 }
 
 .social-links-item {
@@ -470,7 +468,7 @@ header .container {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-links:hover .link, .social-links .link:focus {
+.social-links .link:hover, .social-links .link:focus {
     background-color: #404BBF;
 }
 
@@ -493,7 +491,7 @@ header .container {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
-    margin-bottom: 16px;
+
 }
 
 .footer .social-links {
@@ -501,7 +499,7 @@ header .container {
     gap: 16px;
 }
 
-.footer .social-links:hover .link, .footer .social-links .link:focus {
+.footer .social-links .link:hover, .footer .social-links .link:focus {
     background-color: #31D0AA;
 }
 
@@ -510,7 +508,7 @@ header .container {
     height: 40px;
 }
 
-.footer-container .container {
+.footer-logo-text {
     margin-right: 120px;
 }
 
