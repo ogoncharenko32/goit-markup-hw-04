@@ -388,14 +388,12 @@ header .container {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     background: #4d5ae5;
-    transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding-top: 40px;
-    padding-left: 32px;
-    padding-right: 32px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 40px 32px;
 }
 
 .portfolio-list-item:hover .overlay {
-    transform: translateY(0);
+    transform: translateY(0%);
 }
 
 .footer {
@@ -472,7 +470,7 @@ header .container {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.third-section-list .social-links:hover .link, .third-section-list .social-links:focus .link {
+.social-links:hover .link, .social-links .link:focus {
     background-color: #404BBF;
 }
 
@@ -503,7 +501,7 @@ header .container {
     gap: 16px;
 }
 
-.footer .social-links:hover .link, .footer .social-links:focus .link {
+.footer .social-links:hover .link, .footer .social-links .link:focus {
     background-color: #31D0AA;
 }
 
@@ -514,7 +512,6 @@ header .container {
 
 .footer-container .container {
     margin-right: 120px;
-    margin-left: 156px;
 }
 
 .social-icons {
