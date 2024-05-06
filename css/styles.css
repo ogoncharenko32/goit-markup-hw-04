@@ -402,8 +402,6 @@ header .container {
     background-color: #2e2f42;
     padding: 100px 0;
     display: flex;
-    gap: 120px;
-    justify-content: flex-start;
 
 }
 
@@ -516,6 +514,7 @@ header .container {
 
 .footer-container .container {
     margin-right: 120px;
+    margin-left: 156px;
 }
 
 .social-icons {
