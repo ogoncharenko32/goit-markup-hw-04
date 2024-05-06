@@ -481,8 +481,6 @@ header .container {
 .social {
     display: flex;
     flex-direction: column;
-    gap: 16px;
-
 }
 
 .social-media {
@@ -491,7 +489,7 @@ header .container {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
-
+    margin-bottom: 16px;
 }
 
 .footer .social-links {
