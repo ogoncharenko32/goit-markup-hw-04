@@ -189,7 +189,7 @@ header .container {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
-
+    margin: 0 auto;
 }
 
 .main-header {
